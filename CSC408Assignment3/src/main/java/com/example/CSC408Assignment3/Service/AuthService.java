@@ -1,4 +1,4 @@
 package com.example.CSC408Assignment3.Service;
 
-public class temp {
+public interface AuthService {
 }
