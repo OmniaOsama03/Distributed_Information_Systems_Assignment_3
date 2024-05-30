@@ -1,9 +1,12 @@
 package com.example.CSC408Assignment3.Model;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
 
 import java.util.Date;
 
+@Data
 @Entity
 public class Tree {
     @Id

@@ -1,7 +1,9 @@
 package com.example.CSC408Assignment3.Model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 public class Reward {
     @Id
