@@ -13,17 +13,18 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
+    @Column(nullable = false, unique = true)
     private String username;
-    @Column
+
+    @Column(nullable = false)
     private String password;
-    @Column
+
+    @Column(nullable = false, unique = true)
     private String email;
 
-    @Column
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Tree> trees;
-    @Column
+
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Reward> rewards;
 

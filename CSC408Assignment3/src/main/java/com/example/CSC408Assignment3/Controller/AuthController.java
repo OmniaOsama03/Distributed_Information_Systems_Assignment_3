@@ -1,4 +1,6 @@
 package com.example.CSC408Assignment3.Controller;
 
-public class AuthController {
+public class AuthController
+{
+
 }

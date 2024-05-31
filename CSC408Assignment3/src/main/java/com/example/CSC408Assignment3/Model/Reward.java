@@ -9,16 +9,14 @@ public class Reward {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
-    @Column
+
+    @Column(nullable = false)
+    private String description;
+
+    @Column(nullable = false)
     private int points;
 
-    //Thinking:
-    //@Column
-    //@OneToOne
-    //@JoinColumn(name = "tree_id")
-    //Tree tree;
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 }

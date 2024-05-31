@@ -13,16 +13,16 @@ public class Tree {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
-
-    @Column
+    @Column(nullable = false)
     private String photo;
-    @Column
+
+    @Column(nullable = false)
     private Date plantingDate;
-    @Column
+
+    @Column(nullable = false)
     private String location;
 
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 }
