@@ -6,7 +6,6 @@ import com.example.CSC408Assignment3.Repository.UserRepository;
 import com.example.CSC408Assignment3.Service.UserService;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service

@@ -6,10 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="45cd062a-e357-41ae-a871-9d502cda1fa7" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../CSC408Assignment3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/dto/UserDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSC408-Lab 3.1/src/main/java/com/example/demo/exception/ResourceNotFoundException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSC408-Lab 3.1/src/main/java/com/example/demo/model/Patient.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSC408-Lab 3.1/src/main/java/com/example/demo/service/PatientService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSC408-Lab 3.1/src/main/java/com/example/demo/service/impl/PatientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CSC408Assignment3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Controller/RewardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Controller/RewardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Controller/UserContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Controller/UserContoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Repository/RewardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Repository/RewardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/RewardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/RewardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/impl/RewardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/impl/RewardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3.1src/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3.1src/Lab3.1src.iml" beforeDir="false" />
     </list>
@@ -26,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,14 +59,17 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maado/Desktop/CSC408Assignment3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/maado/Desktop/CSC408_Assignment_3/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maado\Desktop\CSC408_Assignment_3\CSC408Assignment3\src\main\java\com\example\CSC408Assignment3" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.CSC408Assignment3" />
     </key>
