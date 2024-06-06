@@ -1,0 +1,117 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/extras/spring-security"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Addition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9; /* Light green background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around; /* Center elements horizontally */
+            align-items: center; /* Center elements vertically */
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            max-width: 100%;
+        }
+
+        .dashboard {
+            background-color: #a5d6a7; /* Medium green background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            max-width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2e7d32; /* Dark green text */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555555;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #66bb6a; /* Bright green */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #388e3c; /* Darker green */
+        }
+
+        p {
+            text-align: center;
+            color: #555555;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="form-container">
+    <form form="" id="treeform" th:action="@{/add-tree}" method="post">
+        <h1>Add a Tree</h1>
+        <p>Plant a tree today and make a difference!</p>
+
+        <label for="plantingDate">Planting Date:</label>
+        <input type="date" id="plantingDate" name="plantingDate" required="" minlength="6" maxlength="8">
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required="" minlength="6" maxlength="50">
+
+        <label for="photo">Tree Photo (link):</label>
+        <input type="text" id="photo" name="photo" required="" minlength="6" maxlength="1000">
+
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div class="dashboard">
+    <div class="header">
+        <h1>USER Dashboard</h1>
+    </div>
+    <div class="container">
+        <h2>Welcome, [[${user.getFullname()}]]</h2>
+
+        <span sec:authorize="isAuthenticated">
+                <a class="btn-impact" th:href="@{/logout}">Logout</a>
+            </span>
+    </div>
+</div>
+
+
+
+</body></html>

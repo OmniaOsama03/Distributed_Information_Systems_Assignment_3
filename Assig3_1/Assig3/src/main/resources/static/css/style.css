@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Light green background */
+    color: #2e7d32; /* Dark green text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a5d6a7; /* Medium green background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #388e3c; /* Darker green */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #1b5e20; /* Very dark green */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 80%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff; /* White background */
+    color: #1b5e20; /* Very dark green text */
+}
+
+input[type="submit"] {
+    background-color: #66bb6a; /* Bright green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+.message {
+    background-color: #66bb6a; /* Bright green */
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
