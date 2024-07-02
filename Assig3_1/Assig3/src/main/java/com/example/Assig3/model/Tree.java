@@ -12,7 +12,7 @@ import java.util.Date;
 
 @Data
 @Entity
-public class Tree_77_3 {
+public class Tree {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -28,7 +28,7 @@ public class Tree_77_3 {
 
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
-    private Auth_77_3 user;
+    private Auth user;
 
     public Long getId() {
         return id;
@@ -62,11 +62,11 @@ public class Tree_77_3 {
         this.location = location;
     }
 
-    public Auth_77_3 getUser() {
+    public Auth getUser() {
         return user;
     }
 
-    public void setUser(Auth_77_3 user) {
+    public void setUser(Auth user) {
         this.user = user;
     }
 }

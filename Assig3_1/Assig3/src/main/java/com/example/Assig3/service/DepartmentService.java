@@ -1,8 +1,8 @@
 package com.example.Assig3.service;
 import java.util.List;
 
-import com.example.Assig3.model.Department_77_3;
-import com.example.Assig3.repository.DepartmentRepository_77_3;
+import com.example.Assig3.model.Department;
+import com.example.Assig3.repository.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
@@ -13,17 +13,17 @@ import org.springframework.stereotype.Service;
 //Nourhan Ahmed Elmehalawy 1078096
 
 @Service
-public class DepartmentService_77_3 {
+public class DepartmentService {
 
 	@Autowired
-	private DepartmentRepository_77_3 repository;
+	private DepartmentRepository repository;
 
-	public List<Department_77_3> getAll() {
+	public List<Department> getAll() {
 		return repository.findAll();
 	}
 
 	@Cacheable(value="applicationCache", key="#deptId")
-	public Department_77_3 findById(Integer deptId) {
+	public Department findById(Integer deptId) {
 		return repository.findById(deptId).get();
 	}
 	

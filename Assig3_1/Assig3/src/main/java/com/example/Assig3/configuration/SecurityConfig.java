@@ -1,7 +1,7 @@
 package com.example.Assig3.configuration;
 
-import com.example.Assig3.service.CustomSuccessHandler_77_3;
-import com.example.Assig3.service.CustomUserDetailsService_77_3;
+import com.example.Assig3.service.CustomSuccessHandler;
+import com.example.Assig3.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,13 +18,13 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
 @EnableWebSecurity
-public class SecurityConfig_77_3 {
+public class SecurityConfig {
 
     @Autowired
-    CustomSuccessHandler_77_3 customSuccessHandler;
+    CustomSuccessHandler customSuccessHandler;
 
     @Autowired
-    CustomUserDetailsService_77_3 customUserDetailsService;
+    CustomUserDetailsService customUserDetailsService;
 
 
     @Bean

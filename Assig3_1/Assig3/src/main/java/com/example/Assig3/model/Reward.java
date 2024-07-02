@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Reward_77_3 {
+public class Reward {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -22,7 +22,7 @@ public class Reward_77_3 {
 
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
-    private Auth_77_3 user;
+    private Auth user;
 
     public Long getId() {
         return id;
@@ -48,11 +48,11 @@ public class Reward_77_3 {
         this.points = points;
     }
 
-    public Auth_77_3 getUser() {
+    public Auth getUser() {
         return user;
     }
 
-    public void setUser(Auth_77_3 user) {
+    public void setUser(Auth user) {
         this.user = user;
     }
 }

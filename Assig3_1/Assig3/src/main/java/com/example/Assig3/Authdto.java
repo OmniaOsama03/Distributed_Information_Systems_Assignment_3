@@ -1,9 +1,5 @@
 package com.example.Assig3;
 
-//Omnia Osama Ahmed 1084505
-//Maryam Mohammed Ali 1079679
-//Nourhan Ahmed Elmehalawy 1078096
-
 public class Authdto {
 
     private String email;

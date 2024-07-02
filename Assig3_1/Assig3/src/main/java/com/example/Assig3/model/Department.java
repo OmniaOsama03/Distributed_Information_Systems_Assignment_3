@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "department")
-public class Department_77_3 {
+public class Department {
 
 	@Id
 	private Integer id;

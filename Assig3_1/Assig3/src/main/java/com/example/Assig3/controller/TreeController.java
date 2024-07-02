@@ -1,10 +1,10 @@
 package com.example.Assig3.controller;
 
 
-import com.example.Assig3.model.Auth_77_3;
-import com.example.Assig3.model.Tree_77_3;
-import com.example.Assig3.service.AuthService_77_3;
-import com.example.Assig3.service.TreeService_77_3;
+import com.example.Assig3.model.Auth;
+import com.example.Assig3.model.Tree;
+import com.example.Assig3.service.AuthService;
+import com.example.Assig3.service.TreeService;
 import org.springframework.web.bind.annotation.*;
 
 import org.springframework.http.ResponseEntity;
@@ -19,12 +19,12 @@ import java.util.List;
 //Nourhan Ahmed Elmehalawy 1078096
 
 @RestController
-public class TreeController_77_3
+public class TreeController
 {
-    private TreeService_77_3 treeService;
-    private AuthService_77_3 userService;
+    private TreeService treeService;
+    private AuthService userService;
 
-    public TreeController_77_3(TreeService_77_3 treeService, AuthService_77_3 userService) {
+    public TreeController(TreeService treeService, AuthService userService) {
         super();
         this.treeService = treeService;
         this.userService = userService;
@@ -33,15 +33,15 @@ public class TreeController_77_3
 
 
     @PostMapping("/add-tree")
-    public ResponseEntity<String> addTree(@ModelAttribute Tree_77_3 treeDto, Authentication authentication) {
+    public ResponseEntity<String> addTree(@ModelAttribute Tree treeDto, Authentication authentication) {
         authentication = SecurityContextHolder.getContext().getAuthentication();
         String userEmail = authentication.getName();
 
-        Auth_77_3 user = userService.getUserByEmail(userEmail);
+        Auth user = userService.getUserByEmail(userEmail);
 
         if (user != null) {
             // Convert TreeDto to Tree entity
-            Tree_77_3 tree = new Tree_77_3();
+            Tree tree = new Tree();
             tree.setPlantingDate(treeDto.getPlantingDate());
             tree.setLocation(treeDto.getLocation());
             tree.setPhoto(treeDto.getPhoto());
@@ -71,7 +71,7 @@ public class TreeController_77_3
     }
 
     @PutMapping("/{treeId}")
-    public Tree_77_3 updateTree(@PathVariable Long treeId, @RequestBody Tree_77_3 updatedTree) {
+    public Tree updateTree(@PathVariable Long treeId, @RequestBody Tree updatedTree) {
         return treeService.updateTree(treeId, updatedTree);
     }
 

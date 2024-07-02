@@ -6,13 +6,10 @@ import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-//Omnia Osama Ahmed 1084505
-//Maryam Mohammed Ali 1079679
-//Nourhan Ahmed Elmehalawy 1078096
 
 @Entity
 @Table(name = "users", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
-public class Auth_77_3 {
+public class Auth {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -27,16 +24,16 @@ public class Auth_77_3 {
     private String fullname;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Tree_77_3> trees;
+    private List<Tree> trees;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Reward_77_3> rewards;
+    private List<Reward> rewards;
 
-    public Auth_77_3() {
+    public Auth() {
         super();
     }
 
-    public Auth_77_3(String email, String password, String role, String fullname) {
+    public Auth(String email, String password, String role, String fullname) {
         super();
         this.email = email;
         this.password = password;
@@ -85,19 +82,19 @@ public class Auth_77_3 {
     public void setFullname(String fullname) {
         this.fullname = fullname;
     }
-    public List<Tree_77_3> getTrees() {
+    public List<Tree> getTrees() {
         return trees;
     }
 
-    public void setTrees(List<Tree_77_3> trees) {
+    public void setTrees(List<Tree> trees) {
         this.trees = trees;
     }
 
-    public List<Reward_77_3> getRewards() {
+    public List<Reward> getRewards() {
         return rewards;
     }
 
-    public void setRewards(List<Reward_77_3> rewards) {
+    public void setRewards(List<Reward> rewards) {
         this.rewards = rewards;
     }
 

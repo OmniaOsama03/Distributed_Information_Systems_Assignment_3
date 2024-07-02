@@ -1,7 +1,7 @@
 package com.example.Assig3.controller;
 
 import com.example.Assig3.Authdto;
-import com.example.Assig3.service.AuthService_77_3;
+import com.example.Assig3.service.AuthService;
 import org.springframework.stereotype.Controller;
 import java.security.Principal;
 
@@ -14,18 +14,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-//Omnia Osama Ahmed 1084505
-//Maryam Mohammed Ali 1079679
-//Nourhan Ahmed Elmehalawy 1078096
 
 @Controller
-public class AuthController_77_3 {
+public class AuthController {
 
     @Autowired
     UserDetailsService userDetailsService;
 
     @Autowired
-    private AuthService_77_3 userService;
+    private AuthService userService;
 
 
     @GetMapping("/registration")

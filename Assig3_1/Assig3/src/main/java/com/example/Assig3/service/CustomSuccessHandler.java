@@ -9,12 +9,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.stereotype.Service;
 
-//Omnia Osama Ahmed 1084505
-//Maryam Mohammed Ali 1079679
-//Nourhan Ahmed Elmehalawy 1078096
-
 @Service
-public class CustomSuccessHandler_77_3 implements AuthenticationSuccessHandler {
+public class CustomSuccessHandler implements AuthenticationSuccessHandler {
 
 	@Override
 	public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,

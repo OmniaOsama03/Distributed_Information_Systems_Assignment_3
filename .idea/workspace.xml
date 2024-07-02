@@ -5,67 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6a356e-6ead-45a4-b17e-b4b3758ddd67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CSC408Assignment3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/Auth4Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/configuration/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/repositories/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/service/CustomSuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/service/CustomUserDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/service/CustomUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/java/com/ems/app/rest/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/resources/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/resources/templates/admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/resources/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/main/resources/templates/user.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/Auth-4/Auth-4/src/test/java/com/ems/app/rest/Auth4ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Configuration/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Controller/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Controller/RewardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Controller/TreeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Controller/UserContoller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Csc408Assignment3Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Model/Reward.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Model/Tree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Repository/RewardRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Repository/TreeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/SecurityUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/RewardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/TreeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/impl/AuthServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/impl/RewardServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/impl/TreeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/Service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/java/com/example/CSC408Assignment3/dto/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC408Assignment3/src/test/java/com/example/CSC408Assignment3/Csc408Assignment3ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/Assig3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/Assig3Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/Authdto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/Authdto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/configuration/CacheConfig_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/configuration/CacheConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/configuration/SecurityConfig_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/configuration/StringToDateConverter_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/configuration/StringToDateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/configuration/WebConfig_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/configuration/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/controller/AuthController_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/controller/DepartmentController_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/controller/RewardController_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/controller/RewardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/controller/TreeController_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/controller/TreeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/exception/ResourceNotFoundException_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/model/Auth_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/model/Auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/model/Department_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/model/Reward_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/model/Reward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/model/Tree_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/model/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/repository/AuthRepository_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/repository/AuthRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/repository/DepartmentRepository_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/repository/RewardRepository_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/repository/RewardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/repository/TreeRepository_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/repository/TreeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/AuthService_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/CustomSuccessHandler_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/CustomSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/CustomUserDetailsService_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/CustomUserDetails_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/DepartmentService_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/RewardService_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/RewardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/TreeService_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/TreeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/impl/AuthServiceImpl_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/impl/RewardServiceImpl_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/impl/RewardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/impl/TreeServiceImpl_77_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assig3_1/Assig3/src/main/java/com/example/Assig3/service/impl/TreeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +63,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/maado/Desktop/CSC408_Assignment_3"
+    "last_opened_file_path": "C:/Users/maado/Desktop/Distributed_Information_Systems_Assignment_3"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

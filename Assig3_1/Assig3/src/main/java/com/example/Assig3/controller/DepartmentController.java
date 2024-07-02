@@ -2,8 +2,8 @@ package com.example.Assig3.controller;
 
 import java.util.List;
 
-import com.example.Assig3.model.Department_77_3;
-import com.example.Assig3.service.DepartmentService_77_3;
+import com.example.Assig3.model.Department;
+import com.example.Assig3.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,18 +14,18 @@ import org.springframework.web.bind.annotation.RestController;
 //Nourhan Ahmed Elmehalawy 1078096
 
 @RestController
-public class DepartmentController_77_3 {
+public class DepartmentController {
 
 	@Autowired
-	private DepartmentService_77_3 service;
+	private DepartmentService service;
 
 	@GetMapping("/dept/findAll")
-	public List<Department_77_3> findAll() {
+	public List<Department> findAll() {
 		return service.getAll();
 	}
 
 	@GetMapping("/dept/find/{id}")
-	public Department_77_3 findById(@PathVariable Integer id) {
+	public Department findById(@PathVariable Integer id) {
 		return service.findById(id);
 	}
 	@GetMapping("/dept/clearAllCache")

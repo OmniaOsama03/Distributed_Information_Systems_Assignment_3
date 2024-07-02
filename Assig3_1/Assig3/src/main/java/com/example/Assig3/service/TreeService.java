@@ -1,7 +1,7 @@
 package com.example.Assig3.service;
 
 
-import com.example.Assig3.model.Tree_77_3;
+import com.example.Assig3.model.Tree;
 
 import java.util.List;
 
@@ -9,13 +9,13 @@ import java.util.List;
 //Maryam Mohammed Ali 1079679
 //Nourhan Ahmed Elmehalawy 1078096
 
-public interface TreeService_77_3
+public interface TreeService
 {
     List<String> getTreesByUserId(Long userId);
-    Tree_77_3 saveTree(Tree_77_3 tree);
+    Tree saveTree(Tree tree);
 
     void deleteTree(Long treeId);
 
-    Tree_77_3 updateTree(Long treeId, Tree_77_3 updatedTree);
+    Tree updateTree(Long treeId, Tree updatedTree);
 
 }

@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.List;
 
 
-import com.example.Assig3.model.Auth_77_3;
+import com.example.Assig3.model.Auth;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -14,11 +14,11 @@ import org.springframework.security.core.userdetails.UserDetails;
 //Maryam Mohammed Ali 1079679
 //Nourhan Ahmed Elmehalawy 1078096
 
-public class CustomUserDetails_77_3 implements UserDetails {
+public class CustomUserDetails implements UserDetails {
 
-	private Auth_77_3 user;
+	private Auth user;
 	
-	public CustomUserDetails_77_3(Auth_77_3 user) {
+	public CustomUserDetails(Auth user) {
 		super();
 		this.user = user;
 	}
